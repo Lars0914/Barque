@@ -1,0 +1,50 @@
+{
+  "expo": {
+    "name": "Baraquea",
+    "slug": "baraquea",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "config": {
+        "googleMapsApiKey": "AIzaSyBUHaXnKMYi8ipKF-UgCHWH1TSdVCse8p0"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyBUHaXnKMYi8ipKF-UgCHWH1TSdVCse8p0"
+        }
+      },
+      "package": "com.foreve0914.Baraquea"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "162f0bfc-1e05-4dae-bdf5-15d256ab3e1a"
+      }
+    },
+    "owner": "foreve0914",
+    "sdkVersion": "48.0.0"
+  },
+  "name": "Baraqua"
+}
